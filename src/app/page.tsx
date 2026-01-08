@@ -241,8 +241,8 @@ export default function Home() {
       <div className="flex flex-1 flex-col">
         {/* Navbar */}
         <header className="flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 px-6 py-4">
-          <h1 className="text-xl font-semibold text-black dark:text-white">
-            Chatwith <span className="rounded-xl bg-black px-2 py-1 text-white dark:bg-white dark:text-black">AB</span>
+          <h1 className="text-xl font-semibold  text-white">
+            Chatwith <span className="rounded-xl px-2 py-1 bg-white text-black">AB</span>
           </h1>
 
 

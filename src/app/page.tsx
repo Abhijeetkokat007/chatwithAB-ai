@@ -175,11 +175,11 @@ export default function Home() {
       </ol>
     ),
     li: ({ children }) => <li>{children}</li>,
-    hr: () => <hr className="my-6 border-zinc-300 dark:border-zinc-700" />,
+    hr: () => <hr className="my-6  border-zinc-700" />,
     code({ className, children }) {
       const isInline = !className;
       return isInline ? (
-        <code className="bg-zinc-200 dark:bg-zinc-700 px-1 rounded">
+        <code className=" bg-zinc-700 px-1 rounded">
           {children}
         </code>
       ) : (
@@ -240,7 +240,7 @@ export default function Home() {
       {/* ========== MAIN CHAT AREA ========== */}
       <div className="flex flex-1 flex-col">
         {/* Navbar */}
-        <header className="flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 px-6 py-4">
+        <header className="flex items-center justify-between border-b  border-zinc-800 px-6 py-4">
           <h1 className="text-xl font-semibold  text-white">
             Chatwith <span className="rounded-xl px-2 py-1 bg-white text-black">AB</span>
           </h1>
